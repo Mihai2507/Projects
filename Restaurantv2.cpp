@@ -30,6 +30,8 @@ public:
     }
 };
 
+//3 more derived classes to make(drinks, food, dessert)
+
 class Menu {
 private:
     vector<MenuItem> items;
@@ -54,7 +56,7 @@ public:
         cout << "And to eat?" << endl;
         cin >> food;
         cout << "And will you take a dessert at the end?" << endl;
-        cin >> r2;
+        cin >> r2;//condition to put if it is a yes or no
         cout << "Ok. You can tell me what you want to order." << endl;
         cin >> desert;
         cout << "Good choices! I will come with the food in a moment!" << endl;
