@@ -18,24 +18,27 @@ public:
         this->price = price;
     }
 
-    string getName() {
+    string getName()const {
         return name;
     }
 
-    string getDescription() {
+    string getDescription()const {
         return description;
     }
 
-    double getPrice() {
+    double getPrice()const {
         return price;
     }
 };
 class Menu {
 private:
     vector<MenuItem> items;
-    string drink, food, desert;
+    string drink;
+    string food; 
+    string desert;
     string name;
-    string raspuns, r2;
+    string raspuns;
+    string r2;
 
 public:
     void addItem(MenuItem item) {
