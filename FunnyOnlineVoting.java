@@ -44,10 +44,10 @@ public class FunnyOnlineVoting{
 
 			}
 			if(vot==5) {
-				System.out.println("You voted all of them.\nGreat. Your vote will be canceled and no one will steal it! :)");
+				System.out.println("You voted all of them.\nGreat. Your vote will be canceled.");
 			}
 			if(vot==0) {
-				System.out.println("You voted none of them.\nGreat. Your vote will be stolen. Long Live ROMANIA! <3");
+				System.out.println("You voted none of them.\nGreat.");
 			}
 		}
 		else if(varsta<18){
